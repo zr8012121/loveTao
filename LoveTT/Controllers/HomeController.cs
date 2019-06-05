@@ -32,7 +32,11 @@ namespace LoveTT.Controllers
 
             return View();
         }
+        public ActionResult dddd()
+        {
 
+            return View();
+        }
 
     }
 }
