@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -144,6 +145,13 @@
     <Content Include="Scripts\bootstrap-3.4.1-dist\js\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap-3.4.1-dist\js\npm.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\LoginCss\css\dmaku.css" />
+    <Content Include="Scripts\LoginCss\css\dmaku2.css" />
+    <Content Include="Scripts\LoginCss\images\1f4af.png" />
+    <Content Include="Scripts\LoginCss\images\bg_cb3e28c.jpg" />
+    <Content Include="Scripts\LoginCss\images\login_afe3eb0.png" />
+    <Content Include="Scripts\LoginCss\images\logo-white_a86f825.png" />
+    <Content Include="Scripts\LoginCss\images\refresh_5b751b2.svg" />
     <Content Include="Scripts\vue.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -183,6 +191,8 @@
     <Content Include="Scripts\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Scripts\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Scripts\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\Login\LoginHome.cshtml" />
+    <Content Include="Views\Login\Register.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
